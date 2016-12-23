@@ -13,6 +13,7 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   --%>
+  <%@ taglib prefix="shiro" uri="http://shiro.apache.org/tags"%>
 <jsp:include page="include.jsp"/>
 <!DOCTYPE html>
 <html>
@@ -27,6 +28,12 @@
     </style>
 </head>
 <body>
+<shiro:authenticated>
+		<p>authenticated</p>
+	</shiro:authenticated>
+	<shiro:notAuthenticated>
+		<p>Not authenticated</p>
+	</shiro:notAuthenticated>
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-md-offset-4">

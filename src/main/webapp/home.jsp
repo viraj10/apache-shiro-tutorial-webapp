@@ -60,19 +60,42 @@
     <h3>Roles you have:</h3>
 
     <p>
-        <shiro:hasRole name="Captains">Captains<br/></shiro:hasRole>
-        <shiro:hasRole name="Officers">Bad Guys<br/></shiro:hasRole>
-        <shiro:hasRole name="Enlisted">Enlisted<br/></shiro:hasRole>
+        <shiro:hasRole name="usermanager">usermanager<br/></shiro:hasRole>
+        <shiro:hasRole name="bomanager">bomanager<br/></shiro:hasRole>
+        <shiro:hasRole name="trademanager">trademanager<br/></shiro:hasRole>
+		<shiro:hasRole name="reportmanager">reportmanager<br/></shiro:hasRole>
+		<shiro:hasRole name="hedgemanager">hedgemanager<br/></shiro:hasRole>
     </p>
 
     <h3>Roles you DON'T have:</h3>
 
     <p>
-        <shiro:lacksRole name="Captains">Captains<br/></shiro:lacksRole>
-        <shiro:lacksRole name="Officers">Officers<br/></shiro:lacksRole>
+        <shiro:lacksRole name="usermanager">usermanager<br/></shiro:lacksRole>
+        <shiro:lacksRole name="bomanager">bomanager<br/></shiro:lacksRole>
+        <shiro:lacksRole name="trademanager">trademanager<br/></shiro:lacksRole>
+		<shiro:lacksRole name="reportmanager">reportmanager<br/></shiro:lacksRole>
+		<shiro:lacksRole name="hedgemanager">hedgemanager<br/></shiro:lacksRole>
         <shiro:lacksRole name="Enlisted">Enlisted<br/></shiro:lacksRole>
     </p>
 
+	<h3>What would you like to do today?</h3>
+	<h4>
+		<a href="usermanagement">User management</a>
+	</h4>
+	<h4>
+		<a href="backoffice">Back Office Management</a>
+	</h4>
+	<h4>
+		<a href="trademanagement">Trade Management</a>
+	</h4>
+	<h4>
+		<a href="reportmanagement">Report Management</a>
+	</h4>
+	<h4>
+		<a href="hedgemanagement">Hedge Management</a>
+	</h4>
+		
+		
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
