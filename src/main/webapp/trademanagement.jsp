@@ -9,10 +9,8 @@
 <body>
 	<h2>Trade management</h2>
 
-
-	<h3>
-		<a href="first.jsp">Back to home page</a>
-	</h3>
-	<%@ include file="timefooter.jsp"%>
+this is trade management page
+	
+	<!--%@ include file="/timefooter.jsp" %-->
 </body>
 </html>

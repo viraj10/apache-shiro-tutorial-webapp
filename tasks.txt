@@ -1,0 +1,11 @@
+time footer remove done
+Shiro multiple roles specified done
+	based in ini done
+	based in jsp done
+change links of back to home done
+shiro has permission 
+	based in ini done
+	based in jsp
+shiro annotation on some method
+time footer add done
+change back to home done

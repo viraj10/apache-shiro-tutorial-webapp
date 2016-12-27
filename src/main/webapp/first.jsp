@@ -39,7 +39,6 @@
 	</h4>
 
 
-	<%@ include file="timefooter.jsp"%>
-
+<!--%@ include file="/timefooter.jsp" %-->
 </body>
 </html>

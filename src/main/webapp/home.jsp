@@ -60,6 +60,7 @@
     <h3>Roles you have:</h3>
 
     <p>
+		<shiro:hasRole name="admin">admin<br/></shiro:hasRole>
         <shiro:hasRole name="usermanager">usermanager<br/></shiro:hasRole>
         <shiro:hasRole name="bomanager">bomanager<br/></shiro:hasRole>
         <shiro:hasRole name="trademanager">trademanager<br/></shiro:hasRole>
@@ -75,24 +76,24 @@
         <shiro:lacksRole name="trademanager">trademanager<br/></shiro:lacksRole>
 		<shiro:lacksRole name="reportmanager">reportmanager<br/></shiro:lacksRole>
 		<shiro:lacksRole name="hedgemanager">hedgemanager<br/></shiro:lacksRole>
-        <shiro:lacksRole name="Enlisted">Enlisted<br/></shiro:lacksRole>
+        <shiro:lacksRole name="admin">admin<br/></shiro:lacksRole>
     </p>
 
 	<h3>What would you like to do today?</h3>
 	<h4>
-		<a href="usermanagement">User management</a>
+		<a href="/usermanagement.jsp">User management</a>
 	</h4>
 	<h4>
-		<a href="backoffice">Back Office Management</a>
+		<a href="/backoffice.jsp">Back Office Management</a>
 	</h4>
 	<h4>
-		<a href="trademanagement">Trade Management</a>
+		<a href="/trademanagement.jsp">Trade Management</a>
 	</h4>
 	<h4>
-		<a href="reportmanagement">Report Management</a>
+		<a href="/reportmanagement.jsp">Report Management</a>
 	</h4>
 	<h4>
-		<a href="hedgemanagement">Hedge Management</a>
+		<a href="/hedgemanagement.jsp">Hedge Management</a>
 	</h4>
 		
 		

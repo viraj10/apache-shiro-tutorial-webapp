@@ -10,11 +10,7 @@
 	<h2>User management</h2>
 
 
-	<h3>
-		<a href="first.jsp">Back to home page</a>
-	</h3>
-
-	<%@ include file="timefooter.jsp"%>
+	<%@ include file="/timefooter.jsp" %>
 
 </body>
 </html>
