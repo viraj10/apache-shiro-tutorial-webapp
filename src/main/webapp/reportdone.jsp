@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
-<title>Back Office management</title>
+<title>Report Successful</title>
 <%@ include file="/headstyle.jsp" %>
 </head>
 <body>
 <div class="container">
-<h2>Back Office management</h2>
+<h2>Report Successful</h2>
 <%@ include file="/timefooter.jsp" %>
 </div>
 </body>

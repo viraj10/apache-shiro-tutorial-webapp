@@ -20,13 +20,7 @@
 <html>
 <head>
     <title>Apache Shiro Tutorial Webapp</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Add some nice styling and functionality.  We'll just use Twitter Bootstrap -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap-theme.min.css">
-    <style>
-        body{padding:0 20px;}
-    </style>
+    <%@ include file="/headstyle.jsp" %>
 </head>
 <body>
 
@@ -79,32 +73,22 @@
         <shiro:lacksRole name="admin">admin<br/></shiro:lacksRole>
     </p>
 
-	<h3>What would you like to do today?</h3>
-	<h4>
-		<a href="/usermanagement.jsp">User management</a>
-	</h4>
-	<h4>
-		<a href="/backoffice.jsp">Back Office Management</a>
-	</h4>
-	<h4>
-		<a href="/trademanagement.jsp">Trade Management</a>
-	</h4>
-	<h4>
-		<a href="/reportmanagement.jsp">Report Management</a>
-	</h4>
-	<h4>
-		<a href="/hedgemanagement.jsp">Hedge Management</a>
-	</h4>
+	
+	
+	
+	<div class="container-fluid">
+		<h3>What would you like to do today?</h3>
+		<div class="row">
+		<div class="col-sm-2"><a href="/usermanagement.jsp">User management</a></div>
+		<div class="col-sm-3"><a href="/backoffice.jsp">Back Office Management</a></div>
+		<div class="col-sm-2"><a href="/trademanagement.jsp">Trade Management</a></div>
+		<div class="col-sm-2"><a href="/reportmanagement.jsp">Report Management</a></div>
+		<div class="col-sm-3"><a href="/hedgemanagement.jsp">Hedge Management</a></div>
+	</div>
+	</div>
+	
 		
 		
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+    
 </body>
 </html>

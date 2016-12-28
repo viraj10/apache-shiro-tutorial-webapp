@@ -5,7 +5,14 @@ Shiro multiple roles specified done
 change links of back to home done
 shiro has permission 
 	based in ini done
-	based in jsp
-shiro annotation on some method
+	based in jsp  done
+shiro annotation on some method done
 time footer add done
 change back to home done
+add header for style done
+test pages with all users done
+user done
+trade done
+backoffice done
+report done
+hedge done

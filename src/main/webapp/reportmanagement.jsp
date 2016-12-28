@@ -5,12 +5,16 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>Report management</title>
+<%@ include file="/headstyle.jsp" %>
 </head>
 <body>
+
+
+
+<div class="container">
 <h2>Report management</h2>
-
-
-<h3><a href="first.jsp">Back to home page</a></h3>
-<!--%@ include file="/timefooter.jsp" %-->
+<a href="/runReport">Run Report</a>
+<%@ include file="/timefooter.jsp" %>
+</div>
 </body>
 </html>

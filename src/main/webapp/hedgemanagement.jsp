@@ -5,10 +5,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>Hedge management</title>
+<%@ include file="/headstyle.jsp" %>
 </head>
 <body>
+<div class="container">
 <h2>Hedge management</h2>
 
-<!--%@ include file="/timefooter.jsp" %-->
+<%@ include file="/timefooter.jsp" %>
+</div>
 </body>
 </html>

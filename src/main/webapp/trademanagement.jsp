@@ -5,12 +5,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>Trade management</title>
+<%@ include file="/headstyle.jsp" %>
 </head>
 <body>
+<div class="container">
 	<h2>Trade management</h2>
-
-this is trade management page
-	
-	<!--%@ include file="/timefooter.jsp" %-->
+		<p>this is trade management page</p>
+	<%@ include file="/timefooter.jsp" %>
+</div>
 </body>
 </html>
